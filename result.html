@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+var physics;
+physics = parseInt(prompt("enter your marks"))
+
+var maths;
+maths = parseInt(prompt("enter your marks"))
+
+var sindhi;
+sindhi = parseInt(prompt("enter your marks"))
+
+var english;
+english = parseInt(prompt("enter your marks"))
+
+ var total;
+ total = sindhi + english + maths + physics
+ 
+ var percentage = total/400*100
+
+ if(percentage>=33 && percentage<=45){
+ document.write("GRADE E")
+ }
+  else if(percentage>=46 && percentage<=59){
+ document.write("GRADE D")}
+  else if(percentage>=60 && percentage<=69){
+ document.write("GRADE C")}
+  else if(percentage>=70 && percentage<=79){
+ document.write("GRADE B")}
+ else if(percentage>=80 && percentage<=100)
+ {
+ document.write("GRADE A")}
+
+    </script>
+</body>
+</html>
